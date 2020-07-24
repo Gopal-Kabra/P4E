@@ -3,7 +3,7 @@ if len(fname) < 1 : fname = "mbox-short.txt"
 
 fh = open(fname)
 count = 0
-data=[]
+#data=[]
 for line in fh :
    line = line.rstrip()
    if line.startswith('From ') :
